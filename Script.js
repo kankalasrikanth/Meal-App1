@@ -172,7 +172,7 @@ function addRemoveToFavList(id) {
         alert("your meal removed from your favourites list");
     } else {
         arr.push(id);
-        alert("your meal add your favourites list");
+        alert("your meal is added to your favourites list");
     }
     localStorage.setItem("favouritesList",JSON.stringify(arr));
     showMealList();
